@@ -1,0 +1,60 @@
+/* Universal selector */
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+/* name selector */
+body{
+    background-color: green;
+}
+/* Id selector */
+#admin-box{
+background-color: goldenrod;
+color: red;
+width: 50%;
+text-align: center;
+margin: 5% auto 0px;
+padding: 10px;
+border-radius: 20px;
+box-shadow: 5px 5px 10px chartreuse;
+
+}
+/* decedent selector */
+#admin-box h1{
+font-size: 25px;
+text-transform: uppercase;}
+font-family: Arial, Helvetica, sans-serif;
+/* name selector */
+form{
+margin: 50px 0px;
+}
+/* Grouping selector */
+label,
+input{
+display: block;
+}
+label{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 50%;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+}
+/* class selector */
+.p-taxt{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+/* decedent selector */
+.p-taxt a{
+
+}

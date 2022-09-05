@@ -1,0 +1,32 @@
+/* Universal selector */
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+/* Id selector */
+#admin-box{
+background-color: goldenrod;
+color: red;
+}
+/* decedent selector */
+#admin-box h1{
+
+}
+/* name selector */
+form{
+
+}
+/* Grouping selector */
+label, input{
+
+}
+/* class selector */
+.p-taxt{
+
+}
+/* decedent selector */
+.p-taxt a{
+
+}
